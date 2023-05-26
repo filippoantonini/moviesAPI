@@ -1,0 +1,161 @@
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+
+/* HEADER */
+
+.top-header {
+    position: relative;
+    background-image: url("images/cinema6.png");
+    background-size: cover;
+    height: 13em;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+
+    z-index: 1;
+  }
+  
+  .header {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+  }
+
+  .header1{
+    margin-top: 8px;
+  }
+
+  /* SEARCH BAR */
+  
+  form {
+    position: relative;
+    z-index: 2;
+
+    width: 29em;
+    height: 2.375em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+  }
+  
+  .search {
+    width: 70%;
+    height: 100%;
+    border: 1px solid #D1D5DB;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: 600;
+  }
+  
+  .search-btn {
+    height: 100%;
+    width: 30%;
+    border: none;
+    background-color: white;
+    border: 1px solid #D1D5DB;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    font-weight: bold;
+  }
+
+  /* IMAGE NO DATA DISPLAYED */
+  
+  .main-image,
+  .main-image-watchlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
+  .empty-watchlist{
+    color: #DFDDDD;
+  }
+
+  .link-watch{
+    color: #363636;
+    margin: 0.5em;
+    text-decoration: none;
+  }
+
+  .link{
+    flex-direction: column;
+  }
+
+  .img-link{
+    margin-right: 0.2em;
+    margin-top: -0.2em;
+  }
+
+  /* MOVIES INFO */
+  
+  .poster{
+    height: 180px;
+    width: 100px;
+    margin: 44px 21px 44px 44px;
+  }
+
+  .movie-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title-raking{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .right-space{
+    margin-right: 10px;
+  }
+
+  .info{
+    color: #111827;
+  }
+  
+  .plot{
+    color: #6B7280;
+    max-width: 600px;
+  }
+
+  .line{
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .watchlist-btn{
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #111827;
+  }
+
+  .btn-img{
+    vertical-align: middle;
+  }
+  
+  .btn-text {
+    vertical-align: middle;
+    margin-left: 5px;
+    font-weight: 500;
+  }
+
+.remove-watchlist-btn{
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #111827;
+}
+
+  

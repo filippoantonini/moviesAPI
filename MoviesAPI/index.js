@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
 
   const searchTerm = input.value;
 
-  fetch(`http://www.omdbapi.com/?apikey=5a9e569f&t=${searchTerm}`)
+  fetch(`https://www.omdbapi.com/?apikey=5a9e569f&t=${searchTerm}`)
       .then(response => response.json())
       .then(data => {
           
